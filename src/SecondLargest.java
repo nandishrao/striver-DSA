@@ -2,7 +2,7 @@ public class SecondLargest {
     public static void main(String[] args) {
         int largest = 0;
         int SecLargest = 0;
-        int [] arr={1,4,2,3,7,9,10,0};
+        int [] arr={1,4,2,3,7,9,10,8};
         for(int i=0 ; i< arr.length ; i++){
             if(arr[i] > largest){
                 SecLargest = largest;
@@ -11,6 +11,7 @@ public class SecondLargest {
                 SecLargest = arr[i];
             }
         }
-        System.out.print(""+SecLargest );
+        System.out.print("SECOND LARGEST NUMBER : "+SecLargest );
     }
 }
+
