@@ -7,6 +7,7 @@ public class RemoveDuplicate {
         for(int i : arr){
            hashSet.add(arr[i]);
         }
-        System.out.print(hashSet);
+        System.out.println(hashSet.size());
+        System.out.println(hashSet);
     }
 }
