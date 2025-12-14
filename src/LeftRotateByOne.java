@@ -1,5 +1,6 @@
 //ROTATE THE ARRAY BY ONE
 
+import java.net.SocketOption;
 import java.util.Arrays;
 
 public class LeftRotateByOne {
@@ -10,6 +11,8 @@ public class LeftRotateByOne {
             arr[i] = arr[i+1];
         }
         arr[arr.length-1] =n;
-       System.out.print(Arrays.toString(arr));
+       for(int i : arr){
+           System.out.print(" "+i);
+       }
     }
 }
