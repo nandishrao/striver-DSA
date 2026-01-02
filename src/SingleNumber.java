@@ -13,7 +13,6 @@ class Solution_SingleNum {
         for (int num : arr) {
                 result = result ^ num;
         }
-
         return result;
     }
 }
