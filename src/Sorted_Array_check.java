@@ -11,7 +11,7 @@ public static boolean sortedcheckfn(int[] arr) {
 public class Sorted_Array_check {
     public static void main(String[] args) {
         SortedCheck s = new SortedCheck();
-        int [] arr = {1,2,3,4,5,66,7,8,9,10};
+        int [] arr = {1,2,3,4,5,8,9,10};
         boolean result = s.sortedcheckfn(arr);
         System.out.print(result);
     }
