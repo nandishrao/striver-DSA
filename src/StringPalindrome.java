@@ -15,11 +15,10 @@ class PalinString{
 
     }
 }
-
 public class StringPalindrome {
     public static void main(String[] args) {
         PalinString p = new PalinString();
-        boolean result =p.ValidateStringPalindrome("A man, a plan, a canal: Panama");
+        boolean result =p.ValidateStringPalindrome("TOOTd");
         System.out.println(result);
     }
 }
